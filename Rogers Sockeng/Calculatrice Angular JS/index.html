@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Calculatrice Kûrbeen</title>
+    <script src="angular-1.5.8/angular.min.js"></script>
+    <script src="javascript/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body ng-app="calculApp">
+<div ng-controller="calculController">
+    <h1>Calculatrice Kûrbeen en ligne</h1>
+    <span>Saisir le calcul:</span>
+    <input name="Calcul" ng-model="expression" type="text" ng-change="calcul()"/>
+    <p><span> Résultat du calcul: <b>{{result}}</b> </span></p>
+</div>
+</body>
+</html>

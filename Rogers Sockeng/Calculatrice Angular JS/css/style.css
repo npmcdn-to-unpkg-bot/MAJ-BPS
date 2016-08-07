@@ -1,0 +1,19 @@
+html{
+    background-color: gainsboro;
+}
+div {
+    border: none;
+    background-color: thistle;
+    padding-left: 30%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+    border-radius: 70% 0px 70% 0px;
+    width: 70%;
+    position: static;
+}
+input{
+    background-color: #f7ecb5;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    padding-left: 5px;
+}
